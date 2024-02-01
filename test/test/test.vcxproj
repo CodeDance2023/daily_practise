@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="alg_union-find sets.c" />
     <ClCompile Include="Union-find Sets(complete version).cpp" />
+    <ClCompile Include="zdgys.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

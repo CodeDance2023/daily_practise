@@ -21,5 +21,8 @@
     <ClCompile Include="Union-find Sets(complete version).cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="zdgys.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
