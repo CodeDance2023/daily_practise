@@ -1,2 +1,4 @@
-﻿  zdgys.c
-  test.vcxproj -> D:\remote_code\daily_practise\test\x64\Debug\test.exe
+﻿  暴力筛法.cpp
+  LINK : 没有找到 D:\remote_code\daily_practise\test\x64\Debug\test.exe 或上一个增量链接没有生成它；正在执行完全链接
+暴力筛法.obj : error LNK2005: main 已经在 埃拉托斯特尼筛法.obj 中定义
+D:\remote_code\daily_practise\test\x64\Debug\test.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

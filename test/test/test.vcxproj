@@ -128,6 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="alg_union-find sets.c" />
+    <ClCompile Include="埃拉托斯特尼筛法.cpp" />
+    <ClCompile Include="暴力筛法.cpp" />
+    <ClCompile Include="欧拉筛法.cpp" />
     <ClCompile Include="Union-find Sets(complete version).cpp" />
     <ClCompile Include="zdgys.c" />
   </ItemGroup>
