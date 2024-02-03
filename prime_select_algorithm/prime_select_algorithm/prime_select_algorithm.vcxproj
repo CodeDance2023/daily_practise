@@ -130,6 +130,7 @@
     <ClCompile Include="..\..\test\test\埃拉托斯特尼筛法.cpp" />
     <ClCompile Include="..\..\test\test\暴力筛法.cpp" />
     <ClCompile Include="..\..\test\test\欧拉筛法.cpp" />
+    <ClCompile Include="sortcpp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

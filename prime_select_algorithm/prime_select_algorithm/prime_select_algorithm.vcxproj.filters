@@ -24,5 +24,8 @@
     <ClCompile Include="..\..\test\test\欧拉筛法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="sortcpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
