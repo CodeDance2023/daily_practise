@@ -33,5 +33,14 @@
     <ClCompile Include="暴力筛法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="contest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="quick_power%28取模运算%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="快速幂（终极版%29 .c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

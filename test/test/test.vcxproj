@@ -128,7 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="alg_union-find sets.c" />
+    <ClCompile Include="contest.cpp" />
+    <ClCompile Include="quick_power%28取模运算%29.cpp" />
     <ClCompile Include="埃拉托斯特尼筛法.cpp" />
+    <ClCompile Include="快速幂（终极版%29 .c" />
     <ClCompile Include="暴力筛法.cpp" />
     <ClCompile Include="欧拉筛法.cpp" />
     <ClCompile Include="Union-find Sets(complete version).cpp" />
