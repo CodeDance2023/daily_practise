@@ -42,5 +42,11 @@
     <ClCompile Include="快速幂（终极版%29 .c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="string_fun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sprintf &amp; sscanf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
