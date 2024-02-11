@@ -69,10 +69,10 @@
 //}
 
 //%[^abc],表示获取不是a，b，c的所有字符，空格也要获取
-int main()
-{
-	char str[100];
-	sscanf("jijg ehaabbkdi","%[^abc]",str);
-	puts(str);         //jijg eh    （空格不在a,b,c里面，也可以获取到）
-	return 0;
-}
+//int main()
+//{
+//	char str[100];
+//	sscanf("jijg ehaabbkdi","%[^abc]",str);
+//	puts(str);         //jijg eh    （空格不在a,b,c里面，也可以获取到）
+//	return 0;
+//}
