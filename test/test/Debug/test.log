@@ -1,11 +1,6 @@
-﻿  alg_union-find sets.c
-  zdgys.c
+﻿  sprintf & sscanf.c
+  数组删除.c
+  快速幂（终极版) .c
+  求乘法逆元(P为质数-费马小定理).c
   正在生成代码...
-  contest.cpp
-  quick_power.cpp
-  埃拉托斯特尼筛法.cpp
-  暴力筛法.cpp
-  欧拉筛法.cpp
-  Union-find Sets(complete version).cpp
-  正在生成代码...
-  test.vcxproj -> D:\remote_code\daily_practise（远程仓库）\test\Debug\test.exe
+D:\remote_code\daily_practise（远程仓库）\test\test\数组删除.c : fatal  error C1090: PDB API 调用失败，错误代码“3”: D:\remote_code\daily_practise（远程仓库）\test\test\Debug\vc143.pdb

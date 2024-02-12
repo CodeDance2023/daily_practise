@@ -132,7 +132,6 @@
     <ClCompile Include="exgcd.cpp" />
     <ClCompile Include="quick_power%28取模运算%29.cpp" />
     <ClCompile Include="sprintf &amp; sscanf.c" />
-    <ClCompile Include="string_fun.cpp" />
     <ClCompile Include="乘法逆元（不要求p为质数——扩展欧几里得算法）.cpp" />
     <ClCompile Include="埃拉托斯特尼筛法.cpp" />
     <ClCompile Include="数组删除.c" />
@@ -143,6 +142,7 @@
     <ClCompile Include="Union-find Sets(complete version).cpp" />
     <ClCompile Include="zdgys.c" />
     <ClCompile Include="求乘法逆元%28P为质数-费马小定理%29.c" />
+    <ClCompile Include="线性求逆元.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
