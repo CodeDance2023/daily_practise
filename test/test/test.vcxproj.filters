@@ -63,5 +63,20 @@
     <ClCompile Include="线性求逆元.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="conbination%28乘法逆元%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Lucas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs迷宫最短路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs全排列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
