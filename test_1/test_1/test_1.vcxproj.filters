@@ -24,5 +24,14 @@
     <ClCompile Include="差分数组_区间修改2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="数论练习_最大的gcd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数论练习_余数求和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="humble numbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

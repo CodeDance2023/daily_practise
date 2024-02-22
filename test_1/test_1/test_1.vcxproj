@@ -127,9 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="humble numbers.cpp" />
     <ClCompile Include="前缀和_一维数组区间修改.cpp" />
     <ClCompile Include="差分数组_区间修改.cpp" />
     <ClCompile Include="差分数组_区间修改2.cpp" />
+    <ClCompile Include="数论练习_余数求和.cpp" />
+    <ClCompile Include="数论练习_最大的gcd.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
