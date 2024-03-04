@@ -1,5 +1,5 @@
-#include <stdio.h>
-#pragma warning(disable:4996)      //告诉编译器忽略不安全的函数的警告
+//#include <stdio.h>
+//#pragma warning(disable:4996)      //告诉编译器忽略不安全的函数的警告
 //sprintf函数：将格式化内容打印到字符串里面（printf是打印到终端）
 //int main()
 //{
@@ -8,7 +8,7 @@
 //	printf("str = %s",str);          //str = 电话：15975948675
 //	return 0;
 //}
-
+//
 //sscanf函数，获取字符串的内容到任意地方（不只是字符串里面，sprntf只能打印到字符串里面）
 //int main()
 //{
@@ -17,7 +17,7 @@
 //	printf("year = %d month = %d day = %d", year, month, day); //year = 2024 month = 2 day = 10
 //	return 0;
 //}
-
+//
 //%*d,在里面加上一颗星表示，获取这个整数之后，不要这个整数。
 //int main()
 //{
@@ -35,9 +35,9 @@
 //	printf("str = %s",str);
 //	return 0;
 //}
-
+//
 //字符串集合操作————仅限于字符串！！！
-
+//
 //%[ -z]，表示获取（ - z ）空格（空格也可以获取）到z的所有字符，遇到不在这个范围的字符就马上停止获取。
 //int main()
 //{
@@ -46,8 +46,8 @@
 //	printf("str = %s",str);
 //	return 0;
 //}
-
-
+//
+//
 ////%[^a-z],表示获取不在a-z范围内的所有字符，空格也要获取
 //int main()
 //{
@@ -56,8 +56,8 @@
 //	puts(str);         //123 456
 //	return 0;
 //}
-
-
+//
+//
 //%[a b],获取字符串中a，空格，b，遇到不是这三个字符的就停止获取，空格也要获取
 //int main()
 //{
@@ -67,7 +67,7 @@
 //
 //	return 0;
 //}
-
+//
 //%[^abc],表示获取不是a，b，c的所有字符，空格也要获取
 //int main()
 //{

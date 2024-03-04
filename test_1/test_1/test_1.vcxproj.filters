@@ -30,7 +30,37 @@
     <ClCompile Include="数论练习_余数求和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="humble numbers.cpp">
+    <ClCompile Include="数论练习_humble numbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数论练习_relatives.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数论练习_欧拉筛求欧拉函数值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数论练习_试除法欧拉函数值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="数论练习_F - Bi-shoe and Phi-shoe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="H - GCD - Extreme %28II%29.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二分练习_银行贷款.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二分练习_D - 跳石头.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="E - 木材加工.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="M - 路标设置.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="B - 地标访问.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

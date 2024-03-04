@@ -127,12 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="humble numbers.cpp" />
+    <ClCompile Include="B - 地标访问.cpp" />
+    <ClCompile Include="E - 木材加工.cpp" />
+    <ClCompile Include="M - 路标设置.cpp" />
+    <ClCompile Include="二分练习_D - 跳石头.cpp" />
+    <ClCompile Include="二分练习_银行贷款.cpp" />
+    <ClCompile Include="数论练习_F - Bi-shoe and Phi-shoe.cpp" />
+    <ClCompile Include="数论练习_relatives.cpp" />
+    <ClCompile Include="数论练习_humble numbers.cpp" />
     <ClCompile Include="前缀和_一维数组区间修改.cpp" />
     <ClCompile Include="差分数组_区间修改.cpp" />
     <ClCompile Include="差分数组_区间修改2.cpp" />
     <ClCompile Include="数论练习_余数求和.cpp" />
     <ClCompile Include="数论练习_最大的gcd.cpp" />
+    <ClCompile Include="H - GCD - Extreme %28II%29.cpp" />
+    <ClCompile Include="数论练习_试除法欧拉函数值.cpp" />
+    <ClCompile Include="数论练习_欧拉筛求欧拉函数值.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

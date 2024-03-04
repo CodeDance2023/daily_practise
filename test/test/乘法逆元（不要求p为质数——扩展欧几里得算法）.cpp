@@ -23,10 +23,10 @@
 //	int a, b, p, x, y;
 //	cin >> a >> b >> p >> x >> y;        //求(a/b)%p的值
 //	int ret = exgcd(b,p,x,y);             //传入b，和 p,求b的乘法逆元
-//	y = (y % p + p) % p;             //保证x为整数
+//	x = (x % p + p) % p;             //保证x为整数
 //	if (ret == 1)           //当ret（gcd） = 1时，说明b，p互质，才有乘法逆元，才输出结果。
 //	{
-//		cout << (a % p * y % p) % p;
+//		cout << (a % p * x % p) % p;
 //	}
 //	else
 //	{
