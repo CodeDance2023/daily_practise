@@ -63,5 +63,14 @@
     <ClCompile Include="B - 地标访问.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="A - 迷宫.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="A - BerSU 球.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="B - 最长有序子序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

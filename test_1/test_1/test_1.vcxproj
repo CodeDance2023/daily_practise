@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="A - BerSU 球.cpp" />
+    <ClCompile Include="A - 迷宫.cpp" />
     <ClCompile Include="B - 地标访问.cpp" />
+    <ClCompile Include="B - 最长有序子序列.cpp" />
     <ClCompile Include="E - 木材加工.cpp" />
     <ClCompile Include="M - 路标设置.cpp" />
     <ClCompile Include="二分练习_D - 跳石头.cpp" />
