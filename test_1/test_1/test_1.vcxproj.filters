@@ -72,5 +72,8 @@
     <ClCompile Include="B - 最长有序子序列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="A - 字符串替换.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
