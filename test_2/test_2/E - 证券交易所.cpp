@@ -1,73 +1,76 @@
-//#pragma warning(disable:4996)
+////#pragma warning(disable:4996)
+////#include <iostream>
+////#include <cstdio>
+////using namespace std;
+////dp数组的含义：以nums[i]结尾的最长连续递增子序列
+////int dp[100010], max, l;
+////long long nums[100010];
+////int main()
+////{
+////	while (cin >> l)
+////	{
+////		if (l == 0)
+////		{
+////			cout << 0;
+////		}
+////		max = 1;  //重置max为1
+////		for (int i = 0; i < l; ++i) //每次都要重置dp数组为1
+////		{
+////			dp[i] = 1;   //初始化为1
+////			cin >> nums[i];//输入数据
+////		}
+////		for (int j = 1; j < l; ++j) //从下标为i开始
+////		{
+////			if (nums[j] > nums[j - 1]) 
+////			{
+////				dp[j] = dp[j - 1] + 1;
+////			}
+////			max = max(max, dp[j]);
+////		}
+////		cout << max << endl;
+////	}
+////	return 0;
+////}
+//
+////思路:这是一道求最长递增子序列的题目，（但是并不要求元素一定要连续）
+////因为这是多组输入的题目，用动态规划会超时（时间复杂为O(N*2)）
+////因此考虑利用更加快速的二分算法来解决这个问题（时间复杂度为N*log(N)）
+//
 //#include <iostream>
-//#include <cstdio>
 //using namespace std;
-//dp数组的含义：以nums[i]结尾的最长连续递增子序列
-//int dp[100010], max, l;
-//long long nums[100010];
+//int a[100008], x, L, l, r, mid, len;
 //int main()
 //{
-//	while (cin >> l)
+//	while (cin >> L) //输入每组数据的长度
 //	{
-//		if (l == 0)
+//		a[0] = -1;       //因为输入的数据可能第一个为0，因此设置第一个元素为-1，保证可以放得进去数组，并且len可以加1；
+//                       //为什么要设置为-1：刚开始len = 0，如果不设置a[0]=-1,那么输入第一个数据为0时，由于x = a[0](全局变量自动为0)，就会进入二分查找，二分也可以设置a[1] = 0,但是len没有加1，会出现错误。
+//		len = 0; //len为当前最大元素所在的位置和最长的递增长度
+//		for (int i = 0; i < L; ++i)
 //		{
-//			cout << 0;
-//		}
-//		max = 1;  //重置max为1
-//		for (int i = 0; i < l; ++i) //每次都要重置dp数组为1
-//		{
-//			dp[i] = 1;   //初始化为1
-//			cin >> nums[i];//输入数据
-//		}
-//		for (int j = 1; j < l; ++j) //从下标为i开始
-//		{
-//			if (nums[j] > nums[j - 1]) 
+//			cin >> x;        
+//			if (x > a[len])    //如果x>a[len](当前最大的元素)
 //			{
-//				dp[j] = dp[j - 1] + 1;
+//				a[++len] = x;    //len++,并且把x放进a数组的末尾
 //			}
-//			max = max(max, dp[j]);
+//			else               //如果x<a[len],利用二分查找：找到比x小的最大数（比x大的最小数）并将x放在它后面
+//			{
+//				l = 1, r = len;
+//				while (l <= r)
+//				{
+//					mid = l + ((r - l) >> 1);
+//					if (a[mid] >= x)      //大于或等于x都是往左找：找比x大的数的最小值
+//					{
+//						r = mid - 1;
+//					}
+//					else       //只有小于x才是往右边找：找比x小的数的最大值
+//					{
+//						l = mid + 1;
+//					}
+//				}
+//				a[l] = x;   //观察发现，正好是左边界l的位置
+//			}
 //		}
-//		cout << max << endl;
+//		cout << len << endl;
 //	}
-//	return 0;
 //}
-
-
-#include <iostream>
-using namespace std;
-int a[100008], x, L, l, r, mid, len;
-int main()
-{
-	
-	while (cin >> L)
-	{
-		a[0] = -1;
-		len = 0;
-		for (int i = 0; i < L; ++i)
-		{
-			cin >> x;
-			if (x > a[len])
-			{
-				a[++len] = x;
-			}
-			else
-			{
-				l = 1, r = len;
-				while (l <= r)
-				{
-					mid = l + ((r - l) >> 1);
-					if (a[mid] >= x)      //大于或等于都是往左找
-					{
-						r = mid - 1;
-					}
-					else       //只有小于才是往右边找
-					{
-						l = mid + 1;
-					}
-				}
-				a[l] = x;
-			}
-		}
-		cout << len << endl;
-	}
-}

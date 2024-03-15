@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include=".cpp" />
     <ClCompile Include="A - Charm Bracelet.cpp" />
     <ClCompile Include="B - 单词太长.cpp" />
     <ClCompile Include="C - All in All.cpp" />
@@ -134,6 +135,7 @@
     <ClCompile Include="D - The Triangle.cpp" />
     <ClCompile Include="E - 子串查找.cpp" />
     <ClCompile Include="E - 证券交易所.cpp" />
+    <ClCompile Include="K - 棋盘问题.cpp" />
     <ClCompile Include="W - Stepan and Vowels.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
