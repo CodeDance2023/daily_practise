@@ -15,34 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D - MEX 重复.cpp">
+    <ClCompile Include="C - Books Exchange %28easy version%29.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="B - 单词太长.cpp">
+    <ClCompile Include="A - The Lakes.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="C - All in All.cpp">
+    <ClCompile Include="G - Ice Skating.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="E - 子串查找.cpp">
+    <ClCompile Include="B - 马的遍历.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="W - Stepan and Vowels.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="A - Charm Bracelet.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="D - The Triangle.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="E - 证券交易所.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="K - 棋盘问题.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="equal or not equal.cpp">
+    <ClCompile Include="bfs迷宫%28失败案例%29.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
